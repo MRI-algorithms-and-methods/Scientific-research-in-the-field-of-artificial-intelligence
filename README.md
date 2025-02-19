@@ -1,4 +1,4 @@
-# Generation of realistic physically based synthetic magnetic resonance imaging data
+# Generation of realistic physics-based synthetic magnetic resonance imaging data
 
 ## Our team:
 - Waleed Alhaidri ([Project Manager, ML Engineer]())
