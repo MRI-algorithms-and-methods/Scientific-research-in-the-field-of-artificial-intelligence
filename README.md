@@ -6,7 +6,7 @@
 - Zilia Badrieva ([]())
 - Anatolii Levchuk ([](https://github.com/LeTond))
 - Ksenia Belousova ([ML Engineer](https://github.com/Kseniyabel))
-- Iuliia Pisareva ([](https://github.com/zi2p))
+- Iuliia Pisareva ([Software Engineer](https://github.com/zi2p))
 - Nikita Babich ([](https://github.com/spacexerq))
 - Anna Konanykhina ([ML Engineer]())
 
