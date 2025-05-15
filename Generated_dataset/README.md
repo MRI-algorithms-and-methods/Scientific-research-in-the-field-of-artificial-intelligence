@@ -16,7 +16,6 @@ This repository contains a **synthetic MRI dataset** with **23,329 samples** acr
 
 🔗 **[Download Full Dataset](#)** <!-- Replace # with your actual link -->
 
----
 
 ## 📂 Dataset Structure
 
@@ -32,14 +31,14 @@ Contains raw and sorted k-space data.
   `.npy` files with **k-space sorted by the filling order**  
   (see `ps/ks_order/*.json`)
 
----
+
 
 ### 2. `phantoms/`
 Phantom data in `.h5` format with shape `(250, 250, 5)`:
 
 - Channels: **T1, T2, T2\*, PD, D**
 
----
+
 
 ### 3. `ps/` (Pulse Sequences)
 
@@ -58,7 +57,7 @@ Phantom data in `.h5` format with shape `(250, 250, 5)`:
 - `param_encode/`:  
   Digitally encoded pulse sequence parameters for DL model input
 
----
+
 
 ### 4. `reconstructed/`
 
@@ -67,7 +66,7 @@ Reconstructed MR images in two formats:
 - `.png`: For visualization  
 - `.npy`: For DL training/testing
 
----
+
 
 ## 🚀 Example Usage
 
