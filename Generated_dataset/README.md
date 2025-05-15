@@ -1,56 +1,85 @@
-Synthetic MRI Dataset
-📌 Overview
-This repository contains a synthetic MRI dataset with 23,329 samples (T1, T2, and PD contrasts), split into:
+# 🧠 Synthetic MRI Dataset
 
-Train: 16,867 samples
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Dataset](https://img.shields.io/badge/Data-Available-brightgreen.svg)](#download-full-dataset)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](#)
 
-Test: 6,462 samples
+## 📌 Overview
 
-Due to GitHub file size restrictions, only example files are included here. The full dataset is available via the link below.
+This repository contains a **synthetic MRI dataset** with **23,329 samples** across **T1, T2, and PD contrasts**, split into:
 
-🔗 Download Full Dataset: [Insert Link Here]
+- **Train**: 16,867 samples  
+- **Test**: 6,462 samples
 
-📂 Dataset Structure
-The dataset is organized into train and test folders with identical structures.
+> ⚠️ **Note**: Due to GitHub file size restrictions, only a few **example files** are included.  
+> The full dataset is available via the link below.
 
-1. k_space
-raw/:
+🔗 **[Download Full Dataset](#)** <!-- Replace # with your actual link -->
 
-.h5 files containing raw k-space data.
+---
 
-sorted/:
+## 📂 Dataset Structure
 
-.npy files with k-space data sorted using the filling order (see ps/ks_order/*.json).
+The dataset is organized into `train/` and `test/` folders with identical subfolder structures:
 
-2. phantoms
-.h5 files with phantom data (shape: (250, 250, 5)), including 5 channels:
+### 1. `k_space/`
+Contains raw and sorted k-space data.
 
-T1, T2, T2*, PD, and D.
+- `raw/`:  
+  `.h5` files with **raw k-space data**
 
-3. ps (Pulse Sequence)
-parameters/:
+- `sorted/`:  
+  `.npy` files with **k-space sorted by the filling order**  
+  (see `ps/ks_order/*.json`)
 
-.json files with pulse sequence parameters.
+---
 
-seq/:
+### 2. `phantoms/`
+Phantom data in `.h5` format with shape `(250, 250, 5)`:
 
-.seq pulse sequence files.
+- Channels: **T1, T2, T2\*, PD, D**
 
-wave/:
+---
 
-.npy files representing interpreted pulse sequences in waveform style.
+### 3. `ps/` (Pulse Sequences)
 
-ks_order/:
+- `parameters/`:  
+  `.json` files containing pulse sequence parameters
 
-.json files defining k-space filling order.
+- `seq/`:  
+  `.seq` files representing pulse sequences
 
-param_encode/:
+- `wave/`:  
+  `.npy` files of interpreted sequences as waveforms
 
-Digitally encoded pulse sequence parameters for DL model input.
+- `ks_order/`:  
+  `.json` files defining the k-space filling order
 
-4. reconstructed
+- `param_encode/`:  
+  Digitally encoded pulse sequence parameters for DL model input
+
+---
+
+### 4. `reconstructed/`
+
 Reconstructed MR images in two formats:
 
-.png for visualization.
+- `.png`: For visualization  
+- `.npy`: For DL training/testing
 
-.npy for DL training/testing.
+---
+
+## 🚀 Example Usage
+
+```python
+import h5py
+import numpy as np
+
+# Load phantom
+phantom = h5py.File("phantoms/sample.h5", "r")["phantom"][:]
+
+# Load sorted k-space
+kspace = np.load("k_space/sorted/sample.npy")
+
+# Load pulse sequence waveform
+waveform = np.load("ps/wave/sample.npy")
