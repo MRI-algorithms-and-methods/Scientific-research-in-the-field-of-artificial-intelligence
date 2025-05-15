@@ -83,3 +83,6 @@ kspace = np.load("k_space/sorted/sample.npy")
 
 # Load pulse sequence waveform
 waveform = np.load("ps/wave/sample.npy")
+```
+
+
