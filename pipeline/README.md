@@ -6,9 +6,8 @@
 
 ## 1. Digital Phantom Creation
 
-Utilize anatomically realistic digital phantoms, such as **BigBrain-MR**, which offer high-resolution representations of human anatomy with detailed MRI properties. [Source](https://www.sciencedirect.com/science/article/pii/S1053811923002203)
-
-![BigBrain-MR Phantom](https://www.sciencedirect.com/science/article/pii/S1053811923002203)
+Utilize anatomically realistic digital phantoms which offer high-resolution representations of human anatomy with detailed MRI properties.  We created MRI brain pantoms with tissue properties (T1, T2, T2*, proton density) based on humain brain tissues dataest from **BigBrain-MR** [Source](https://brainweb.bic.mni.mcgill.ca/brainweb/)
+ 
 
 ## 2. Pulse Sequence Design
 
