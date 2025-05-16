@@ -76,5 +76,17 @@ output_ks_raw = fr'{base_folder}\{split_type}\{contrast}\kspace\raw'
 output_ks_sorted = fr'{base_folder}\{split_type}\{contrast}\kspace\sorted'
 output_im = fr'{base_folder}\{split_type}\{contrast}\recon\imges'
 output_rec_npy = fr'{base_folder}\{split_type}\{contrast}\recon\npy'
+```
+## You can run the simulation script with the following arguments:
+```
+python simulate_mri.py \
+  --phantoms_pth "E:\Dataset\PD\phantoms" \
+  --seq_dir "E:\Dataset\PD\PS\seq" \
+  --kso_pth "E:\Dataset\PD\PS\ks_order" \
+  --output_ks_raw "E:\Dataset\train\PD\kspace\raw" \
+  --output_ks_sorted "E:\Dataset\train\PD\kspace\sorted" \
+  --output_img "E:\Dataset\train\PD\recon\imges" \
+  --output_npy "E:\Dataset\train\PD\recon\npy" \
+  --contrast "PD"
 
 
