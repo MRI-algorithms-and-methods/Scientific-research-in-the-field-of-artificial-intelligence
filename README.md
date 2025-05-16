@@ -1,7 +1,7 @@
 # Generation of realistic physics-based synthetic magnetic resonance imaging data
 
 ## Our team:
-- Waleed Alhaidri ([Project Manager, ML Engineer]())
+- Walid Al-haidri ([Project Manager, ML Engineer]())
 - Ekaterina Brui ([]())
 - Zilia Badrieva ([]())
 - Anatolii Levchuk ([](https://github.com/LeTond))
