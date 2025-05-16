@@ -27,5 +27,54 @@ Simulate raw MRI data acquisition, resulting in raw k-space data  in the ISMRMRD
 
 Reconstruct MR images from the sorted k-space data using appropriate reconstruction algorithms, such as those provided by **MRIReco.jl**, ensuring high-fidelity image outputs. [Source](https://pubmed.ncbi.nlm.nih.gov/33817833/)
 
+# 📘 Use Case: Simulating MRI with `simulate_mri.py`
+
+This script allows you to simulate **T1**, **T2**, or **PD**-weighted MRI images from phantom data and pulse sequences.
+
+---
+
+## 🧩 Inputs
+
+To run the simulation, you need to provide:
+
+- **Phantom Data Folder** (`*.h5`):  
+  Contains digital anatomical phantoms.
+
+- **Pulse Sequences Folder** (`*.seq`):  
+  Contains MRI pulse sequences defining acquisition strategies.
+
+- **K-space Order File** (`*.npy` or other):  
+  Describes the order in which k-space is filled. Required for sorting.
+
+---
+
+## 📤 Outputs
+
+The script will generate:
+
+- **Raw K-space data** (unsorted)
+- **Sorted K-space data** (based on the order file)
+- **Reconstructed image files** (`.png`, `.jpg`, etc.)
+- **Reconstructed arrays** (`.npy` format)
+
+---
+
+## 🗂️ Example Input and Output Paths
+
+```python
+base_folder = r'E:\Dataset'
+contrast = 'PD'  # Choose from 'T1', 'T2', or 'PD'
+split_type = 'train'  # e.g., 'train', 'val', 'test'
+
+# Input paths
+phantoms_pth = fr'{base_folder}\{contrast}\phantoms'
+seq_dir = fr'{base_folder}\{contrast}\PS\seq'
+kso_pth = fr'{base_folder}\{contrast}\PS\ks_order'
+
+# Output paths
+output_ks_raw = fr'{base_folder}\{split_type}\{contrast}\kspace\raw'
+output_ks_sorted = fr'{base_folder}\{split_type}\{contrast}\kspace\sorted'
+output_im = fr'{base_folder}\{split_type}\{contrast}\recon\imges'
+output_rec_npy = fr'{base_folder}\{split_type}\{contrast}\recon\npy'
 
 
