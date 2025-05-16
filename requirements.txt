@@ -1,0 +1,107 @@
+# ------------------------------
+# 🧠 Machine Learning / Deep Learning Packages
+# ------------------------------
+deepdiff==8.4.2
+lightning-utilities==0.11.9
+scikit-learn==1.3.0
+statsmodels==0.14.4
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+torch==2.4.1
+torchaudio==0.12.1+cu113
+torchmetrics==1.5.2
+torchvision==0.13.1+cu113
+
+# ------------------------------
+# 📊 Data Analysis / Visualization Packages
+# ------------------------------
+Bottleneck==1.4.2
+cycler==0.11.0
+fonttools==4.39.4
+h5py==3.12.1
+imageio==2.30.0
+kiwisolver==1.4.4
+matplotlib==3.7.1
+mne==1.1.1
+networkx==3.1
+nibabel==5.3.2
+numexpr==2.10.1
+numpy==1.26.4
+openpyxl==3.1.5
+pandas==2.2.3
+patsy==1.0.1
+Pillow==9.5.0
+PyWavelets==1.4.1
+scikit-image==0.20.0
+scipy==1.10.1
+sympy==1.13.3
+tifffile==2023.4.12
+
+# ------------------------------
+# 🧪 MRI Simulation / Medical Imaging Packages
+# ------------------------------
+mne==1.1.1
+nibabel==5.3.2
+pydicom==2.3.1
+pyEDFlib==0.1.30
+scikit-image==0.20.0
+sigpy==0.1.23
+pypulseq==1.4.2.post1
+imageio==2.30.0
+opencv-python==4.7.0.72
+
+# ------------------------------
+# ⚙️ Simulation Infrastructure / Utilities
+# ------------------------------
+docker==7.1.0
+requests==2.32.3
+grpcio==1.71.0
+filelock==3.16.1
+numba==0.57.0
+llvmlite==0.40.0
+
+# ------------------------------
+# 🧰 General / Utility and Other Packages
+# ------------------------------
+absl-py==2.2.2
+appdirs==1.4.4
+certifi==2025.1.31
+charset-normalizer==3.4.1
+colorama==0.4.6
+contourpy==1.0.7
+coverage==7.2.7
+decorator==5.1.1
+et-xmlfile==1.1.0
+fsspec==2025.3.0
+idna==3.10
+importlib-metadata==6.6.0
+importlib-resources==6.5.2
+Jinja2==3.1.6
+joblib==1.4.2
+lazy_loader==0.2
+Markdown==3.7
+MarkupSafe==2.1.5
+mkl_fft==1.3.11
+mkl_random==1.2.8
+mkl-service==2.4.0
+mpmath==1.3.0
+opencv-python==4.7.0.72
+orderly-set==5.3.0
+packaging==23.1
+pip==23.1.2
+pooch==1.6.0
+protobuf==6.30.2
+pyparsing==3.0.9
+python-dateutil==2.8.2
+pytz==2024.1
+pywin32==310
+setuptools==67.8.0
+six==1.16.0
+threadpoolctl==3.5.0
+tqdm==4.65.0
+typing_extensions==4.13.2
+tzdata==2023.3
+urllib3==2.2.3
+Werkzeug==3.1.3
+wheel==0.40.0
+zipp==3.15.0
