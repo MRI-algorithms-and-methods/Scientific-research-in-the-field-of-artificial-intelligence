@@ -14,7 +14,7 @@ This repository contains a **synthetic MRI dataset** with **23,329 samples** acr
 > ⚠️ **Note**: Due to GitHub file size restrictions, only a few **example files** are included.  
 > The full dataset is available via the link below.
 
-🔗 **[Download Full Dataset](#)** <!-- Replace # with your actual link -->
+🔗 **[Download Full Dataset](https://drive.google.com/file/d/1cIJ-pzP3Sd16GqXRqOqlJ0tyiZ0slTiW/view?usp=sharing)** <!-- Replace # with your actual link -->
 
 
 ## 📂 Dataset Structure
