@@ -16,7 +16,7 @@ The platform consists of several blocks:
 
 - **Data Collection** — Collects real MRI data with annotations, tissue physical parameters, and information about magnetic field inhomogeneities, noise, and artifacts.
   
-- **[Digital Phantom Creation](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/MRI_phantom)** — Using the collected data, realiatic digital phantoms are created. We developed  and AI models (diffusion-based, GAN-based) for generation realistic digital MR phantoms.
+- **[Digital Phantom Creation](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/MRI_phantom)** — Using the collected data, realiatic digital phantoms are created. We developed  and AI models ( **[diffusion-based](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Fast-DDPM_for_phantoms)**  , GAN-based) for generation realistic digital MR phantoms.
   
 - **[MRI Data Synthesis (pipeline)](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/pipeline)** — Synthesizing additional MRI data using an MRI scanner simulator and pulse sequences developed by the team. For  an example of such synthetic data refere to **[Generated_dataset](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Generated_dataset)** used for training **[DL-based  Bloch simulator](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/DL-based_Bloch_simulator)**
   
