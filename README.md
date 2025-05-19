@@ -16,7 +16,7 @@ The project focuses on developing a platform for generating realistic synthetic 
 The platform consists of several blocks:
 
 - **Data Collection Block** — Collects real MRI data with annotations, tissue physical parameters, and information about magnetic field inhomogeneities, noise, and artifacts.
-- **[Digital Phantom Creation Block](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/pipeline)** — Using the collected data, digital phantoms are created, on which artifact, noise, and inhomogeneity effects are added using AI and diffusion models.
+- **[Digital Phantom Creation Block (pipeline)](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/pipeline)** — Using the collected data, digital phantoms are created, on which artifact, noise, and inhomogeneity effects are added using AI and diffusion models.
 - **MRI Data Synthesis Block** — Synthesizing additional MRI data using an MRI scanner simulator and pulse sequences developed by the team.
 - **Validation Block** — Testing the platform on applied tasks, such as data reconstruction for ultra-low-field MRI using deep learning algorithms.
 
