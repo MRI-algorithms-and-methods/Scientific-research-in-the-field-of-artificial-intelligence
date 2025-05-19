@@ -32,8 +32,8 @@ Evaluation scripts that:
 ## Training Configuration
 
 - **Input**:
-  - Pulse Sequences: Shape `(B, 7, 11021)`
-  - Phantoms: Shape `(B, 5, 250, 250)`
+  - Pulse Sequences
+  - Phantoms
 - **Output**:
   - MR Image: Shape `(B, 1, 128, 128)` or k-space data
 
@@ -44,7 +44,7 @@ Evaluation scripts that:
 - **Optimizer**: Adam  
 - **Learning Rate**: `1e-4`  
 - **Scheduler**: StepLR (step=10, gamma=0.1)  
-- **Epochs**: 10  
+- **Epochs**: 50  
 - **Batch Size**: 2  
 
 ---
