@@ -1,6 +1,4 @@
 
----
-
 ## Components
 
 ### 📦 `models/`
@@ -27,7 +25,7 @@ Evaluation scripts that:
 - Run inference on test datasets.
 - Optionally save generated images or k-space data for inspection.
 
----
+
 
 ## Training Configuration
 
@@ -47,7 +45,7 @@ Evaluation scripts that:
 - **Epochs**: 50  
 - **Batch Size**: 2  
 
----
+
 
 ## Output
 
@@ -55,7 +53,7 @@ Evaluation scripts that:
 - Reconstructed images saved to: `out_img/output/`
 - TensorBoard logs in: `simulator/runs/mri_model`
 
----
+
 
 ## Requirements
 
