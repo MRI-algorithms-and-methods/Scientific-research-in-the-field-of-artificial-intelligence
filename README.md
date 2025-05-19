@@ -19,7 +19,8 @@ The platform consists of several blocks:
 - **Data Collection Block** — Collects real MRI data with annotations, tissue physical parameters, and information about magnetic field inhomogeneities, noise, and artifacts.
 - **[Digital Phantom Creation Block ](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/MRI_phantom)** — Using the collected data, digital phantoms are created, on which artifact, noise, and inhomogeneity effects are added using AI and diffusion models.
 - **[MRI Data Synthesis Block(pipeline)](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/pipeline)** — Synthesizing additional MRI data using an MRI scanner simulator and pulse sequences developed by the team. For  an example of such synthetic data refere to **[Generated_dataset](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Generated_dataset)** used for training **[DL-based  Bloch simulator](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/DL-based_Bloch_simulator)**
-- **Validation Block** — Testing the platform on applied tasks, such as data reconstruction for ultra-low-field MRI using deep learning algorithms.
+- **Validation Block** — Testing the platform on applied tasks, such as **[Enhancing of segmentation quality of  MR image](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/brain_segmentation_lib)**  and data reconstruction for ultra-low-field MRI using deep learning algorithms.
+  
 
 The project involves collaboration with NIITFA and JET LAB LLC, as well as close interaction with the international scientific community.
 
