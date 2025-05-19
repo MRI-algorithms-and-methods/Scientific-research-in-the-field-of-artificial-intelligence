@@ -1,6 +1,6 @@
 [![Made with ❤️](https://img.shields.io/badge/ITMO%20-%E2%9D%A4-red)](https://itmo.ru/)
 [![Dataset](https://img.shields.io/badge/Data-Available-brightgreen.svg)](https://drive.google.com/file/d/1cIJ-pzP3Sd16GqXRqOqlJ0tyiZ0slTiW/view?usp=sharing)
-[![Made with ❤️](https://img.shields.io/badge/Our%20group%20-%E2%9D%A4-red)](https://physics.itmo.ru/en/research-group/5202)
+[![Made with ❤️](https://img.shields.io/badge/Our%20group%20-%E2%9D%A4-purpule)](https://physics.itmo.ru/en/research-group/5202)
 
 # Generation of realistic physics-based synthetic magnetic resonance imaging data
 
