@@ -1,14 +1,6 @@
 # Generation of realistic physics-based synthetic magnetic resonance imaging data
 
-## Our team:
-- Walid Al-haidri ([Project Manager, ML Engineer]())
-- Ekaterina Brui ([]())
-- Zilia Badrieva ([]())
-- Anatolii Levchuk ([](https://github.com/LeTond))
-- Ksenia Belousova ([ML Engineer](https://github.com/Kseniyabel))
-- Iuliia Pisareva ([Software Engineer](https://github.com/zi2p))
-- Nikita Babich ([](https://github.com/spacexerq))
-- Anna Konanykhina ([ML Engineer]())
+
 
 ## Our project:
 ![image](https://github.com/user-attachments/assets/84871bd0-548e-4f7b-8ee6-e6345b08c95b)
@@ -27,5 +19,14 @@ The project involves collaboration with NIITFA and JET LAB LLC, as well as close
 ----
 ## AI-powered approach for generation realistic digital MRI brain phantom:
 
-
+----
+## Our team:
+- Walid Al-haidri ([Project Manager, ML Engineer]())
+- Ekaterina Brui ([]())
+- Zilia Badrieva ([]())
+- Anatolii Levchuk ([](https://github.com/LeTond))
+- Ksenia Belousova ([ML Engineer](https://github.com/Kseniyabel))
+- Iuliia Pisareva ([Software Engineer](https://github.com/zi2p))
+- Nikita Babich ([](https://github.com/spacexerq))
+- Anna Konanykhina ([ML Engineer]())
 
