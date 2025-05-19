@@ -1,8 +1,6 @@
 # Generation of realistic physics-based synthetic magnetic resonance imaging data
 
 
-
-## Our project:
 ![image](https://github.com/user-attachments/assets/84871bd0-548e-4f7b-8ee6-e6345b08c95b)
 
 The project focuses on developing a platform for generating realistic synthetic MRI data, which can be used for various applied tasks. 
