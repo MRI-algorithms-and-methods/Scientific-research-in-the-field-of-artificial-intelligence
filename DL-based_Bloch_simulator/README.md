@@ -1,5 +1,6 @@
 
 ## DL-based Bloch simulator 
+![image](https://github.com/user-attachments/assets/c1c3c160-751a-477f-948a-7bd516a1fd0b)
 
 ### 📦 `models/`
 Defines the core deep learning models:
