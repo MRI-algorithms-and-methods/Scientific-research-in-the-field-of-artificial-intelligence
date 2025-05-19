@@ -17,7 +17,6 @@ The project involves collaboration with NIITFA and JET LAB LLC, as well as close
 
 ## AI-powered approach for generation realistic digital MRI brain phantom:
 
-----
 ## Our team:
 - Walid Al-haidri ([Project Manager, ML Engineer]())
 - Ekaterina Brui ([]())
