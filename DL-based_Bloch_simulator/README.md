@@ -34,7 +34,7 @@ Evaluation scripts that:
   - Pulse Sequences
   - Phantoms
 - **Output**:
-  - MR Image: Shape `(B, 1, 128, 128)` or k-space data
+  - MR Image  or k-space data
 
 - **Loss**:
   - `CombinedLoss` (image domain)
