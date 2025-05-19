@@ -1,7 +1,13 @@
+[![Made with ❤️](https://img.shields.io/badge/ITMO%20-%E2%9D%A4-red)](https://itmo.ru/)
+[![Dataset](https://img.shields.io/badge/Data-Available-brightgreen.svg)](https://drive.google.com/file/d/1cIJ-pzP3Sd16GqXRqOqlJ0tyiZ0slTiW/view?usp=sharing)
+[![Made with ❤️](https://img.shields.io/badge/Our%20group%20-%E2%9D%A4-red)](https://physics.itmo.ru/en/research-group/5202)
+
 # Generation of realistic physics-based synthetic magnetic resonance imaging data
 
 
 ![image](https://github.com/user-attachments/assets/84871bd0-548e-4f7b-8ee6-e6345b08c95b)
+
+# Overview
 
 The project focuses on developing a platform for generating realistic synthetic MRI data, which can be used for various applied tasks. 
 
