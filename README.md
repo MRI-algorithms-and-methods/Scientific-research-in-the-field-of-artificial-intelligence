@@ -14,7 +14,7 @@ The platform consists of several blocks:
 
 The project involves collaboration with NIITFA and JET LAB LLC, as well as close interaction with the international scientific community.
 
-----
+
 ## AI-powered approach for generation realistic digital MRI brain phantom:
 
 ----
