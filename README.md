@@ -29,7 +29,19 @@ The platform consists of several blocks:
 The project involves collaboration with NIITFA and JET LAB LLC, as well as close interaction with the international scientific community.
 
 
-## AI-powered approach for generation realistic digital MRI brain phantom:
+## DL-based generation of realistic digital MRI brain phantom 
+We investigated several DL-models for generation of realistic digital MRI brain phantom. Below comparsion of 2 models:
+Fast Denoising Diffusion Probabulistic Model (FastDDPM) and conditional GAN
+
+| Method      | Map Type | Mean SSIM ± SD       | PSNR (dB) ± SD          |
+|-------------|----------|-----------------------|------------------------|
+| **FastDDPM**| T1       | 0.78 ± 0.05           | 22.12 ± 0.55           |
+|             | T2       | 0.79 ± 0.02           | 18.67 ± 0.45           |
+|             | PD       | 0.55 ± 0.04           | 19.32 ± 0.35           |
+|   **CGAN**  | T1       | 0.72 ± 0.02           | 19.42 ± 0.45           |
+|             | T2       | _ _ ±  _ _            | _ _ ±  _ _             |
+|             | PD       | _ _ ±  _ _            | _ _ ±  _ _             |
+
 
 ## Our team:
 - Walid Al-haidri ([Project Manager, ML Engineer]())
