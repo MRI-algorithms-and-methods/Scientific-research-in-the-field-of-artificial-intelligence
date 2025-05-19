@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Data-Available-brightgreen.svg)](https://drive.google.com/file/d/1cIJ-pzP3Sd16GqXRqOqlJ0tyiZ0slTiW/view?usp=sharing)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](#)
+[![Made in ITMO with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](https://itmo.ru/)
 
 ## 📌 Overview
 
