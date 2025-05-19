@@ -1,5 +1,5 @@
 
-## Components
+## DL-based Bloch simulator 
 
 ### 📦 `models/`
 Defines the core deep learning models:
