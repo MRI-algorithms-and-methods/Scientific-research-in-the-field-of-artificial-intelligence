@@ -29,6 +29,7 @@ The platform consists of several blocks:
 The project involves collaboration with NIITFA and JET LAB LLC, as well as close interaction with the international scientific community.
 
 
+
 ## DL-based generation of realistic digital MRI brain phantom 
 We investigated several DL-models for generation of realistic digital MRI brain phantom. Below comparsion of 2 models:
 Fast Denoising Diffusion Probabulistic Model (FastDDPM) and conditional GAN
