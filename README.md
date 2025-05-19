@@ -31,7 +31,7 @@ The project involves collaboration with NIITFA and JET LAB LLC, as well as close
 
 ## DL-based generation of realistic digital MRI brain phantom 
 We investigated several DL-models for generation of realistic digital MRI brain phantom. Below comparsion of 2 models:
-Fast Denoising Diffusion Probabulistic Model (FastDDPM) and conditional GAN
+Fast Denoising Diffusion Probabulistic Model (**[FastDDPM](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Fast-DDPM_for_phantoms)** and conditional GAN)
 
 | Method      | Map Type | Mean SSIM ± SD       | PSNR (dB) ± SD          |
 |-------------|----------|-----------------------|------------------------|
