@@ -43,6 +43,16 @@ Fast Denoising Diffusion Probabulistic Model (**[FastDDPM](https://github.com/MR
 |             | PD       | _ _ ±  _ _            | _ _ ±  _ _             |
 
 ## Dataset
+This repository contains a **synthetic MRI dataset** with **23,329 samples** across **T1, T2, and PD contrasts**, split into:
+
+- **Train**: 16,867 samples  
+- **Test**: 6,462 samples
+
+> ⚠️ **Note**: Due to GitHub file size restrictions, only a few **example files** are included.  
+> The full dataset is available via the link below.
+
+
+**[Learn more about dataset](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Fast-DDPM_for_phantoms)**
 
 ## Disclaimer
 
