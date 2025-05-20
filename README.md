@@ -52,7 +52,7 @@ This repository contains a **synthetic MRI dataset** with **23,329 samples** acr
 > The full dataset is available via the link below.
 
 
-**[Learn more about dataset](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Fast-DDPM_for_phantoms)**
+**[Learn more about dataset](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Generated_datasets)**
 
 ## Disclaimer
 
