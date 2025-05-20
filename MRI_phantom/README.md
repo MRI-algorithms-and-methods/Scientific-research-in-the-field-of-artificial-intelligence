@@ -7,5 +7,23 @@ A digital MRI phantom represents a set of various tissue characteristics, such a
 
 
 This repository contains code for generating quantitative maps of various modalities (T1, T2, T2*, proton density) and assembling them into phantoms in HDF5 format, and code for reconstructing raw MRI data and obtaining a weighted image.
+Here’s a concise version of your text:
 
-An example of a created phantom is located in the sample_phantoms folder.
+
+
+MRI brain digital phantoms were generated using anatomical brain masks from the [BrainWeb database](https://brainweb.bic.mni.mcgill.ca/brainweb/). Each slice was segmented into 11 tissue types, including:
+
+- Gray matter  
+- White matter  
+- Cerebrospinal fluid (CSF)  
+- Fat  
+- Muscle  
+- Bone marrow  
+- Skin  
+- Dura mater  
+- Vessels
+
+Each tissue mask was assigned characteristic MRI properties—proton density (PD), T1, and T2 relaxation times—based on values reported in the literature. This resulted in realistic, ground truth digital phantoms suitable for simulating MRI acquisitions.
+
+
+
