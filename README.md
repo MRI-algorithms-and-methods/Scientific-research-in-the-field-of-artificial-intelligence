@@ -77,7 +77,7 @@ For more information, please refer to the full license text: [https://creativeco
 
 
 ## Our team:
-- Walid Al-haidri ([Project Manager, ML Engineer]())
+- Walid Al-haidri ([Project Manager, ML Engineer](https://github.com/orgs/MRI-algorithms-and-methods/people/Walhaidri))
 - Ekaterina Brui ([Project Co-manager, Medical physicist]())
 - Zilia Badrieva ([Medical physicist](https://github.com/ZilyaB))
 - Anatolii Levchuk ([ML Engineer,  Biomedical engineer](https://github.com/LeTond))
