@@ -42,6 +42,39 @@ Fast Denoising Diffusion Probabulistic Model (**[FastDDPM](https://github.com/MR
 |             | T2       | _ _ ±  _ _            | _ _ ±  _ _             |
 |             | PD       | _ _ ±  _ _            | _ _ ±  _ _             |
 
+## Dataset
+
+## Disclaimer
+
+It is expressly understood that **ITMO University** does not make any warranties regarding the synthetic MRI data provided. Specifically, ITMO University does **not warrant or guarantee** that:
+
+- The data is accurate;
+- The data is merchantable;
+- The data is fit for any particular purpose, including but not limited to clinical, diagnostic, or commercial applications.
+
+**Use of this data is entirely at your own risk.**
+
+ITMO University **shall not be held liable** for any claims, damages, or losses incurred by you or any third party as a result of using the data, whether directly or indirectly.
+
+By accessing or using the synthetic MRI data, you acknowledge and accept these terms.
+
+---
+
+### License
+
+This dataset is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license. You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format;
+- **Adapt** — remix, transform, and build upon the material;
+
+**Under the following terms:**
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **Scientific Use Only** — Use of this dataset is restricted to non-commercial **scientific research and educational purposes**.
+
+For more information, please refer to the full license text: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 ## Our team:
 - Walid Al-haidri ([Project Manager, ML Engineer]())
