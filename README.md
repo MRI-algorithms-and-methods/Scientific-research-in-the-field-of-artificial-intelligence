@@ -78,8 +78,8 @@ For more information, please refer to the full license text: [https://creativeco
 
 ## Our team:
 - Walid Al-haidri ([Project Manager, ML Engineer]())
-- Ekaterina Brui ([]())
-- Zilia Badrieva ([]())
+- Ekaterina Brui ([Project Co-manager, Medical physicist]())
+- Zilia Badrieva ([Medical physicist](https://github.com/ZilyaB))
 - Anatolii Levchuk ([](https://github.com/LeTond))
 - Ksenia Belousova ([ML Engineer](https://github.com/Kseniyabel))
 - Iuliia Pisareva ([Software Engineer](https://github.com/zi2p))
