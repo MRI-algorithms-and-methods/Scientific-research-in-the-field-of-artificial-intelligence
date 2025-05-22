@@ -33,14 +33,15 @@ The project involves collaboration with NIITFA and JET LAB LLC, as well as close
 We investigated several DL-models for generation of realistic digital MRI brain phantom. Below comparsion of 2 models:
 Fast Denoising Diffusion Probabulistic Model (**[FastDDPM](https://github.com/MRI-algorithms-and-methods/Scientific-research-in-the-field-of-artificial-intelligence/tree/main/Fast-DDPM_for_phantoms)** and conditional GAN)
 
-| Method      | Map Type | Mean SSIM ± SD       | PSNR (dB) ± SD          |
+| Method      | Map Type | Mean SSIM ± SD        | PSNR (dB) ± SD         |
 |-------------|----------|-----------------------|------------------------|
 | **FastDDPM**| T1       | 0.78 ± 0.05           | 22.12 ± 0.55           |
 |             | T2       | 0.79 ± 0.02           | 18.67 ± 0.45           |
 |             | PD       | 0.55 ± 0.04           | 19.32 ± 0.35           |
-|   **CGAN**  | T1       | 0.72 ± 0.02           | 19.42 ± 0.45           |
-|             | T2       | _ _ ±  _ _            | _ _ ±  _ _             |
-|             | PD       | _ _ ±  _ _            | _ _ ±  _ _             |
+|                                                                         |                    
+|   **CGAN**  | T1       | 0.64 ± 0.02           | 18.09 ± 0.37           |
+|             | T2       | 0.60 ± 0.01           | 14.40 ± 0.20           |
+|             | PD       | 0.50 ± 0.01           | 16.00 ± 0.16           |
 
 ## Dataset
 This repository contains a **synthetic MRI dataset** with **23,329 samples** across **T1, T2, and PD contrasts**, split into:
